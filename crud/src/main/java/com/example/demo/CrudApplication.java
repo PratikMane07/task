@@ -72,6 +72,10 @@ public class CrudApplication {
 
 	}
 	
+	public void m14()
+	{
+		System.out.println("this is m14");
+	}
 	
 
 	
