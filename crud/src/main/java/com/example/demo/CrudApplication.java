@@ -35,6 +35,11 @@ public class CrudApplication {
 		System.out.println("this is m7");
 	}
 	
+	public void m8()
+	{
+		System.out.println("this is m8");
+	}
+	
 	
 	
 	public static void main(String[] args) {
