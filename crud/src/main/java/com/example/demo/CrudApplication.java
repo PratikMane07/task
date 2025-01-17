@@ -38,20 +38,36 @@ public class CrudApplication {
 	public void m8()
 	{
 		System.out.println("this is m8");
+		
 	}
 	    
 	
+
 	public void m10()
 	{
 		System.out.println("this is m10");
+
 		
 		
+
+}
+	public void m11()
+	{
+		
+		System.out.println("this is m11");
+
 	}
+	public void m12()
+	{
+		
+		System.out.println("this is m12");
+
+	}
+
 	
 	public static void main(String[] args) {
 		SpringApplication.run(CrudApplication.class, args);
-		
-		
+
 		
 		
 		
