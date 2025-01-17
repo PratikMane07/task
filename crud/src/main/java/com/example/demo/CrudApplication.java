@@ -52,6 +52,11 @@ public class CrudApplication {
 		System.out.println("this is m10");
 
 	}
+	public void m11()
+	{
+		System.out.println("this is m11");
+
+	}
 	
 	public static void main(String[] args) {
 		SpringApplication.run(CrudApplication.class, args);
