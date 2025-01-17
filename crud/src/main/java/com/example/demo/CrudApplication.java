@@ -59,6 +59,12 @@ public class CrudApplication {
 		System.out.println("this is m11");
 
 	}
+	public void m12()
+	{
+		
+		System.out.println("this is m12");
+
+	}
 
 	
 	public static void main(String[] args) {
