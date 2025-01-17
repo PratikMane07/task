@@ -17,7 +17,9 @@ public class CrudApplication {
 	public void m3() {
 		System.out.println("this is m3");
 	}
-
+	public void m4() {
+		System.out.println("this is m4");
+	}
 	
 	public static void main(String[] args) {
 		SpringApplication.run(CrudApplication.class, args);
