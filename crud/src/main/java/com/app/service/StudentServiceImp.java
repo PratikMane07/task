@@ -12,10 +12,11 @@ public class StudentServiceImp  implements StudentService{
 	@Autowired
 	StudentRepositary sr;
 	
-	@Override
-	public Student save(Student s) {
 	
-		return sr.save(s);
+	@Override
+	public Student saveStudent(Student s) {
+		Student st=sr.save(s);
+		return st;
 	}
 
 }

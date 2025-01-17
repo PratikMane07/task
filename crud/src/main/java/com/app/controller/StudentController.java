@@ -17,10 +17,13 @@ public class StudentController {
 	@Autowired
 	StudentService ss;
 
-	@PostMapping("/add")
+	@PostMapping("/adddata")
 	public ResponseEntity<Student> addStudent(@RequestBody Student s)
 	{
-		Student student= ss.save(s);
-		return new ResponseEntity<Student>(student,HttpStatus.OK);
+		Student student= ss.saveStudent(s);
+		return new ResponseEntity<Student>(student,HttpStatus.CREATED);
+		
+		
 	}
+	
 }

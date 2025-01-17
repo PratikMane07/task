@@ -4,6 +4,8 @@ import com.app.model.Student;
 
 public interface StudentService  {
 
-	Student save(Student s);
+
+
+public Student saveStudent(Student s);
 
 }
