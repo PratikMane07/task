@@ -40,6 +40,11 @@ public class CrudApplication {
 		System.out.println("this is m8");
 	}
 	
+	public void m9()
+	{
+		System.out.println("this is m9");
+	}
+	
 	
 	
 	public static void main(String[] args) {
