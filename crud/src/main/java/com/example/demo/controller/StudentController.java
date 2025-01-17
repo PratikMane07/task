@@ -21,5 +21,6 @@ public class StudentController {
 	{
 		Student student= ss.saveStudent(s);
 		return new ResponseEntity<Student>(student,HttpStatus.OK);
+		
 	}
 }
