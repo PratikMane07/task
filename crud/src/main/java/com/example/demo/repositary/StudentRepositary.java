@@ -1,9 +1,9 @@
-package com.app.repositary;
+package com.example.demo.repositary;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.app.model.Student;
+import com.example.demo.model.Student;
 
 @Repository
 public interface StudentRepositary extends JpaRepository<Student, Integer> {
