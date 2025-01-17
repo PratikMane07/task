@@ -25,6 +25,7 @@ public class CrudApplication {
 	{
 		System.out.println("This is M5 method");
 	}
+
 	public void m6()
 	{
 		System.out.println("this is m6");
@@ -46,6 +47,11 @@ public class CrudApplication {
 	}
 	
 	
+	public void m10()
+	{
+		System.out.println("this is m10");
+
+	}
 	
 	public static void main(String[] args) {
 		SpringApplication.run(CrudApplication.class, args);
