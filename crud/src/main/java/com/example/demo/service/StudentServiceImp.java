@@ -13,6 +13,7 @@ public class StudentServiceImp  implements StudentService{
 	StudentRepositary sr;
 	
 	
+	
 	@Override
 	public Student saveStudent(Student s) {
 		Student stud = sr.save(s);
