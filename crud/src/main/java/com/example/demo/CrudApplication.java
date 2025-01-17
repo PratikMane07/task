@@ -45,14 +45,14 @@ public class CrudApplication {
 	{
 		System.out.println("this is m9");
 	}
-	
-	
-
 	public void m10()
 	{
 		System.out.println("this is m10");
 
-	}
+		
+		
+
+}
 	public void m11()
 	{
 		
@@ -69,6 +69,9 @@ public class CrudApplication {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(CrudApplication.class, args);
+
+		
+		
 		
 	}
 
