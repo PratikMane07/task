@@ -1,4 +1,4 @@
-package com.app.model;
+package com.example.demo.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -23,8 +23,8 @@ public class Student {
 	}
 	public void setName(String name) {
 		this.name = name;
-		
-		
 	}
+	
+	
 
 }
