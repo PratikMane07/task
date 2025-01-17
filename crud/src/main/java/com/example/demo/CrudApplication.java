@@ -20,6 +20,10 @@ public class CrudApplication {
 	public void m4() {
 		System.out.println("this is m4");
 	}
+	public void m5()
+	{
+		System.out.println("This is M5 method");
+	}
 	
 	public static void main(String[] args) {
 		SpringApplication.run(CrudApplication.class, args);
