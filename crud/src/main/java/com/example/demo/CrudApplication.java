@@ -10,6 +10,8 @@ public class CrudApplication {
 	{
 		System.out.println("this is m1");
 	}
+	
+	
 
 	public static void main(String[] args) {
 		SpringApplication.run(CrudApplication.class, args);
