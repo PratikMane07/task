@@ -45,6 +45,7 @@ public class CrudApplication {
 	{
 		System.out.println("this is m10");
 		
+		
 	}
 	
 	public static void main(String[] args) {
